@@ -1,0 +1,87 @@
+{
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Roboto Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "terminal.integrated.fontSize": 15,
+  "editor.detectIndentation": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "keyboard.dispatch": "keyCode",
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "prettier.tabWidth": 2,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.disableLanguages": [
+    "js"
+  ],
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "newUntitledFile",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "window.zoomLevel": 1,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "sync.gist": "30a27834a149f31449456e8e35262530",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontWeight": "400"
+}
