@@ -99,5 +99,9 @@ alias vim="nvim"
 alias vi="nvim"
 # alias ls="ls -a"
 
+# System Variables
 export VISUAL=nvim
 export FZF_DEFAULT_COMMAND='rg --files'
+
+# Don't check for mail
+MAILCHECK=0

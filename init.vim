@@ -1,6 +1,8 @@
 autocmd! BufWritePost init.vim source %          " Reload .vimrc on edit
 let mapleader = ','
 
+source $HOME/.config/nvim/plugins/coc.vim
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "              Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -16,6 +18,7 @@ Plug 'dense-analysis/ale'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
