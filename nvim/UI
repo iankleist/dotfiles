@@ -1,0 +1,19 @@
+" Reload .vimrc on edit
+autocmd! BufWritePost init.vim,.vimrc source %
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+		    Vim UI
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set number				" show line numbers
+set rnu					" turn on relative numbering
+set ruler				" always show info along bottom
+set scrolloff=5				" show 5 lines min above the cursor
+set numberwidth=4			" make the number gutter 6 chars wide
+set tw=79				" set width of document
+set laststatus=2			" last window always has a statusline
+set ignorecase				" make searches case-insensitive
+set smartcase				" override ignorecase when uppercase
+set showmatch				" show corresponding bracket
+set list				" show tabs, spaces etc.
+set listchars=tab:→\ ,eol:¬,trail:⋅	" change default chars for list
+
