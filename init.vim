@@ -32,7 +32,6 @@ colorscheme gruvbox
 "              Vim UI
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set number                            " show line numbers
-set rnu                               " turn on relative numbering
 set ruler                             " always show info along bottom
 set scrolloff=5                       " show 5 lines min above the cursor
 set numberwidth=4                     " make the number gutter 6 chars wide

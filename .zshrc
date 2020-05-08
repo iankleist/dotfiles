@@ -97,10 +97,13 @@ source $ZSH/oh-my-zsh.sh
 alias evim="nvim ~/.config/nvim/init.vim"
 alias vim="nvim"
 alias vi="nvim"
-# alias ls="ls -a"
+alias gs="git status"
+alias mv="mv -i"
+alias rm="rm -i"
 
 # System Variables
 export VISUAL=nvim
+export EDITOR=vim
 export FZF_DEFAULT_COMMAND='rg --files'
 
 # Don't check for mail
