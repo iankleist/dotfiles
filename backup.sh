@@ -17,7 +17,7 @@ code --list-extensions --show-versions >> ../../vscode/extensions.txt
 
 # copy other dot files
 cp $HOME/.zshrc .
-cp -R $HOME/.config/nvim/ .
+cp -R $HOME/.config/nvim .
 
 
 # Check git status
