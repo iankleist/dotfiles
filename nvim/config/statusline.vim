@@ -23,3 +23,6 @@ set statusline+=%#CursorIM#     " colour
 set statusline+=\ %3l:%-2c\         " line + column
 set statusline+=%#Cursor#       " colour
 set statusline+=\ %3p%%\                " percentage
+set noshowmode
+set noshowcmd
+set shortmess+=F
