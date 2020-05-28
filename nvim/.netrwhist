@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/christian/Dotfiles'
 let g:netrw_dirhist_8='/Users/christian/Development/practory/src/hooks'
 let g:netrw_dirhist_7='/Users/christian/Development/practory/src'
 let g:netrw_dirhist_6='/Users/christian/Development/practory/src/helpers'
